@@ -101,7 +101,7 @@ divFilters.addEventListener('click', (e) => {
         console.log(elem);
         const completed = elem.classList.contains('completed');
         switch( filter ){
-            case 'slopes':
+            case 'pending':
                 if( completed ){
                     elem.classList.add('hidden');
                 }
